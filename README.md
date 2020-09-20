@@ -15,3 +15,4 @@ Using data analysis tools available in Excel, this project attempts to provide L
 ---
 ### Analysis of Outcomes Based on Launch Date
 ---
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/70344787/93725246-83dbf100-fb7b-11ea-958b-940562610412.png)
