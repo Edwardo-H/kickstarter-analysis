@@ -10,3 +10,8 @@ Louise, an up-and-coming playwright, has asked for assistance with crowdfunding 
 Using data analysis tools available in Excel, this project attempts to provide Louise with information that will help her crowdfunding campaign be successful by analyzing:
 - Outcomes Based on Launch Date
 - Outcomes Based on Goals
+---
+## Analysis and Challenges
+---
+### Analysis of Outcomes Based on Launch Date
+---
