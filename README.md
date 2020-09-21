@@ -42,8 +42,23 @@ Before Louise makes a decision on **when** to begin crowdfunding her play, I wou
 
 By using percentage as opposed to total, one can better visualize the likelihood of a submitted project being successful. By first looking at the years and then months, one might determine a trend developing upwards or downwards. 
 
-
-
 ### Analysis of Outcomes Based on Goals
+---
+By using the COUNT(IFS) function, one can summarize the raw kickstarter data to focus on the success of crowdfunding projects based on the goal amount of money to be raised. The function can be used to pull specific data based on the criteria provided in the formula.
+---
+#### Results
+
+Conclusion/Limitations:
+
+Based on the chart created by the data, it appears that projects with lower funding goals are more likely to be successful and trend downward as the amount increases. At first glance, this conclusion might not look entirely accurate when you notice the success rate for projects with goals between 35000 and 44999 which could be outliers given that only 6 total projects fall in this range. 
+
+**However**,I am purposely not using a currency sign for this observation because one of the flaws of this analysis has to do with currency translation as it is not taken into consideration. Projects may be funded in USD, GBP, EUR, etc... For this reason alone, I would suggest the data displayed in this chart cannot be relied upon.
 
 
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/70344787/93727404-fa332000-fb88-11ea-86b9-548d405a9720.png)
+
+Recommendations:
+
+Even though the chart suggests that Louise's project has a better than average chance of being fully funded, this chart should not provide Louise with any comfort. Instead, I would recommend the folling changes:
+
+-
