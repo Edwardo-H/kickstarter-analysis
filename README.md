@@ -52,13 +52,17 @@ Conclusion/Limitations:
 
 Based on the chart created by the data, it appears that projects with lower funding goals are more likely to be successful and trend downward as the amount increases. At first glance, this conclusion might not look entirely accurate when you notice the success rate for projects with goals between 35000 and 44999 which could be outliers given that only 6 total projects fall in this range. 
 
-**However**,I am purposely not using a currency sign for this observation because one of the flaws of this analysis has to do with currency translation as it is not taken into consideration. Projects may be funded in USD, GBP, EUR, etc... For this reason alone, I would suggest the data displayed in this chart cannot be relied upon.
+**However**, I am purposely not using a currency sign for this observation because one of the flaws of this analysis has to do with currency translation as it is not taken into consideration. Projects may be funded in USD, GBP, EUR, etc... For this reason alone, I would suggest the data displayed in this chart cannot be relied upon.
 
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/70344787/93727404-fa332000-fb88-11ea-86b9-548d405a9720.png)
 
 Recommendations:
 
-Even though the chart suggests that Louise's project has a better than average chance of being fully funded, this chart should not provide Louise with any comfort. Instead, I would recommend the folling changes:
+Even though the chart suggests that Louise's project has a better than average chance of being fully funded, this chart should not provide Louise with any comfort. Instead, I would recommend the following changes:
 
--
+- First, fix the error in the ranges used for the Goal criteria. As it is currently, projects with a goal of 50000 (any currency) are not being included. The ranges 45000-49999 and Greater than 50000 would not capture that amount.
+- Choose a primary currency in which all projects can be compared. Assuming Louise is un the United States, a new column would need to be added to convert foreign currencies to USD based on the applicable exchange rate when the project was being funded.
+- Use different goal ranges that better capture goal success rate. Even though you can't rely on the current analysis because of currency differences, the majority of projects have goals of less than 15000. (91.8%, 961 of 1047)
+
+**Unfortunately, I don't think either of these analyses will be of significant use to Louise for helping with her crowdfunding campaign. At first glance it might appear that beginning her fundraising efforts in May for a $10000 goal would be her best chance for successfully reaching her goal but the criteria used for these analyses do not significantly capture the reality of the historical data.
