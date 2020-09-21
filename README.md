@@ -26,8 +26,10 @@ Conclusion:
 
 Limitations:
 
-While the line chart appears to suggest that Louise should begin her crowdfunding campaign in the middle of year, preferably May, it is difficult to accept the reliability of this conclusion based on the analysis that was performed. 
+While the line chart appears to suggest that Louise should begin her crowdfunding campaign in the middle of year, preferably May, it is difficult to accept the reliability of this conclusion based on the analysis that was performed. The analysis does not consider the impact that each of the years (2009-2017) from which the data was drawn might have had on the months in question. There could have been a recession one year or perhaps May is more popular because donors have received their tax returns and are more willing to be charitable. There are too many variables not explored to reach a conclusive decision.
 
+Furthermore, this analysis looks at the Parent Category as a whole and not the subcategories within. I would imagine Louise would be more concerned with how the subcategory "Plays" would perform if not grouped with the other 36 subcategories in "Theater" for the analysis. Even though 314 of the 604 projects(52%)that attempted funding for the time period were for "Plays", it is still not a fair representation.
+'
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/70344787/93725246-83dbf100-fb7b-11ea-958b-940562610412.png)
 
 ### Analysis of Outcomes Based on Goals
